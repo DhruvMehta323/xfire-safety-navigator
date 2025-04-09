@@ -1,6 +1,5 @@
-
 import { useState, useRef, useEffect } from 'react';
-import { MapPin, Navigation, Fire, Info, Locate, Filter, Plus, Minus } from 'lucide-react';
+import { MapPin, Navigation, Flame, Info, Locate, Filter, Plus, Minus } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -83,7 +82,7 @@ const EvacuationRoutes = () => {
       case 'exit':
         return <Navigation className="h-6 w-6 text-green-600" />;
       case 'fireExtinguisher':
-        return <Fire className="h-6 w-6 text-red-600" />;
+        return <Flame className="h-6 w-6 text-red-600" />;
       case 'assemblyPoint':
         return <MapPin className="h-6 w-6 text-blue-600" />;
       case 'fireDoor':
