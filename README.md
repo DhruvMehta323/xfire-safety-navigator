@@ -1,73 +1,83 @@
-# Welcome to your Lovable project
 
-## Project info
+# xFire.in - Fire Safety Platform at SPIT
 
-**URL**: https://lovable.dev/projects/2e968e32-359d-499a-9679-e1eebd624256
+A comprehensive fire safety platform designed for SPIT (Sardar Patel Institute of Technology) to manage emergency responses, evacuation procedures, hazard reporting, and safety information.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+1. **Landing Page (Homepage)**
+   - Emergency CTA button for immediate hazard reporting
+   - Live emergency alerts panel
+   - Quick links to essential safety resources
 
-**Use Lovable**
+2. **Hazard Reporting System**
+   - Multi-step form for detailed hazard reporting
+   - Photo upload capability 
+   - Location tagging
+   - Status tracking of submitted reports
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2e968e32-359d-499a-9679-e1eebd624256) and start prompting.
+3. **Emergency Alerts System**
+   - Real-time fire emergency alerts
+   - Color-coded alert levels (critical, caution, resolved)
+   - Step-by-step evacuation instructions
+   - Alert acknowledgment functionality
 
-Changes made via Lovable will be committed automatically to this repo.
+4. **Interactive Evacuation Maps**
+   - Building-specific evacuation routes
+   - Location of fire safety equipment
+   - Assembly point information
+   - Guided evacuation steps
 
-**Use your preferred IDE**
+5. **Role-Based Dashboards**
+   - Customized views for students, faculty, security, and admin
+   - Hazard monitoring and management
+   - Fire drill scheduling
+   - Safety compliance analytics
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+6. **Fire Safety Guides**
+   - Educational content on fire prevention
+   - Equipment usage instructions
+   - Interactive quizzes
+   - Emergency contact information
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Tech Stack
 
-Follow these steps:
+- React
+- TypeScript
+- Tailwind CSS
+- Shadcn UI components
+- React Router for navigation
+- React Query for data fetching
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# Clone the repository
+git clone <repository-url>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Navigate to the project directory
+cd xfire-safety-navigator
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The application is set up for easy deployment to any static hosting service or containerized environments.
 
-**Use GitHub Codespaces**
+## Contributing
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Contributions to improve the platform are welcome. Please follow the standard fork-and-pull request workflow.
 
-## What technologies are used for this project?
+## License
 
-This project is built with:
+This project is proprietary and confidential.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Contact
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2e968e32-359d-499a-9679-e1eebd624256) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For any queries, please reach out to:
+- Email: firesafety@spit.ac.in
